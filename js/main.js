@@ -9,7 +9,8 @@ document.getElementById('submit').addEventListener('click', function(e) {
         alert('please enter a valid number')
     }
     else if (inputNumberString==='') {
-        alert('please enter a  number')
+        alert('please enter a  number');
+        document.getElementById('result').innerText="";
     }
     else {
         document.getElementById('result').style.visibility='visible';
